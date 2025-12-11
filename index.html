@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Essaouira Fan Trips — AFCON Experience</title>
+  <meta name="description" content="Essaouira day trips & packages for football fans visiting Morocco during AFCON. Surf, sunset, medina & culture." />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --blue:#0366a6;
+      --orange:#f08a24;
+      --muted:#6b7280;
+      --bg:#f7fbff;
+      --card:#ffffff;
+      --radius:14px;
+      font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:linear-gradient(180deg, #f7fbff 0%, #ffffff 100%);color:#0b1220;line-height:1.45}
+    header{background:linear-gradient(90deg,var(--blue),#0a7fb2);color:white;padding:28px 18px;border-bottom-left-radius:28px;border-bottom-right-radius:28px}
+    .container{max-width:1000px;margin:0 auto;padding:18px}
+    .brand{display:flex;gap:12px;align-items:center}
+    .logo{width:56px;height:56px;border-radius:10px;background:linear-gradient(135deg,var(--orange),#f4b56a);display:flex;align-items:center;justify-content:center;font-weight:700;color:white;font-size:20px;box-shadow:0 6px 18px rgba(4,20,40,0.15)}
+    h1{margin:6px 0 0;font-size:28px}
+    p.lead{margin:10px 0 18px;color:#e6f5ff;opacity:0.95}
+    .grid{display:grid;grid-template-columns:1fr 380px;gap:22px;margin-top:18px}
+    .card{background:var(--card);padding:18px;border-radius:14px;box-shadow:0 6px 20px rgba(8,20,40,0.06)}
+    .hero-img{width:100%;height:220px;border-radius:12px;object-fit:cover;background:linear-gradient(180deg,#e6f6ff,#fff)}
+    .packages{display:grid;grid-template-columns:repeat(1,1fr);gap:12px}
+    .pkg{display:flex;gap:12px;align-items:flex-start;padding:12px;border-radius:10px;border:1px solid #e9f2fb}
+    .pkg .title{font-weight:600}
+    .pkg .price{margin-left:auto;font-weight:700;color:var(--blue)}
+    .cta{display:flex;gap:10px;margin-top:12px;flex-wrap:wrap}
+    .btn{background:var(--orange);color:white;padding:10px 14px;border-radius:10px;border:0;font-weight:600;cursor:pointer}
+    .btn.secondary{background:white;color:var(--blue);border:2px solid rgba(3,102,166,0.12)}
+    .small{font-size:13px;color:var(--muted)}
+    footer{margin-top:28px;padding:20px 0;text-align:center;color:#475569;font-size:13px}
+    .features{display:flex;gap:12px;flex-wrap:wrap;margin-top:12px}
+    .feature{background:linear-gradient(180deg,#fff,#fbfdff);border-radius:10px;padding:10px;flex:1;min-width:140px;text-align:center;box-shadow:0 4px 12px rgba(8,20,40,0.04)}
+    .hero-text{color:white}
+    .whatsapp{display:inline-flex;align-items:center;gap:10px;padding:10px 12px;border-radius:10px;background:#25D366;color:white;font-weight:700;text-decoration:none}
+    .faq{margin-top:12px}
+    .small-note{font-size:13px;color:#475569;margin-top:8px}
+    /* responsive */
+    @media (max-width:900px){
+      .grid{grid-template-columns:1fr}
+      .hero-img{height:180px}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="brand">
+        <div class="logo">EF</div>
+        <div>
+          <h1 class="hero-text">Essaouira Fan Trips</h1>
+          <p class="lead">AFCON visitor packages — surf, culture, sunset & short escapes from the host cities.</p>
+        </div>
+      </div>
+      <div style="margin-top:14px;display:flex;gap:10px;align-items:center;flex-wrap:wrap">
+        <a class="whatsapp" href="https://wa.me/212600000000?text=Hi%2C%20I%27m%20interested%20in%20Essaouira%20Fan%20Trips%20-%20I%20want%20more%20info." target="_blank" rel="noreferrer">WhatsApp Book</a>
+        <a class="btn secondary" href="#packages">See Packages</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container" style="margin-top:18px">
+    <div class="grid">
+      <div>
+        <div class="card">
+          <img class="hero-img" src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1400&auto=format&fit=crop&ixlib=rb-4.0.3&s=4f3b04c39b3f3e5b9b3abcd123456789" alt="Essaouira beach and kite">
+          <h2 style="margin-top:12px">Short trips from Essaouira — built for AFCON visitors</h2>
+          <p class="small-note">We design local experiences: medina walks, surf lessons, camel rides and sunset dinners. No hidden fees — pay on booking or in cash on arrival.</p>
+
+          <div id="packages" style="margin-top:14px">
+            <h3>Our packages</h3>
+            <div class="packages">
+              <div class="pkg">
+                <div>
+                  <div class="title">Football Escape — 1 Day</div>
+                  <div class="small">Medina guided walk • Fish lunch • Beach sunset • Transfers option</div>
+                </div>
+                <div class="price">450 MAD</div>
+              </div>
+
+              <div class="pkg">
+                <div>
+                  <div class="title">Adventure Package</div>
+                  <div class="small">Beginner surf or kite lesson • Quad biking • Photoshoot</div>
+                </div>
+                <div class="price">750 MAD</div>
+              </div>
+
+              <div class="pkg">
+                <div>
+                  <div class="title">3-Day Full Experience</div>
+                  <div class="small">Medina + Surf + Sidi Kaouki trip + Sunset dinner</div>
+                </div>
+                <div class="price">2400 MAD</div>
+              </div>
+            </div>
+
+            <div class="cta" style="margin-top:12px">
+              <button class="btn" onclick="book('Football Escape — 1 Day')">Book Football Escape</button>
+              <button class="btn" onclick="book('Adventure Package')">Book Adventure</button>
+              <button class="btn" onclick="book('3-Day Full Experience')">Book 3-Day</button>
+            </div>
+            <p class="small-note">Note: We partner with local drivers & guides. If you want private pickup from Marrakesh/Agadir, ask for a quote.</p>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:12px">
+          <h3>Why choose us</h3>
+          <div class="features">
+            <div class="feature"><strong>Local knowledge</strong><div class="small">We know Essaouira & watersports</div></div>
+            <div class="feature"><strong>Fast booking</strong><div class="small">WhatsApp confirmation — easy</div></div>
+            <div class="feature"><strong>Flexible</strong><div class="small">Add transfers, hotels or guides</div></div>
+          </div>
+
+          <div class="faq">
+            <h4 style="margin-top:12px">FAQ</h4>
+            <p><strong>Payment:</strong> Cash on arrival or online by card (we’ll share a secure link).</p>
+            <p><strong>Pickup:</strong> Optional, from Essaouira station or nearby cities.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <aside>
+        <div class="card">
+          <h3>Contact & Quick booking</h3>
+          <p class="small">Fastest: WhatsApp</p>
+          <a class="whatsapp" href="https://wa.me/212600000000?text=Hi%2C%20I%27m%20booking%20the%20Football%20Escape%20(1%20Day).%20Dates%3A%20%5Bput%20your%20dates%5D" target="_blank" rel="noreferrer">WhatsApp: +212 6XX XXX XXX</a>
+
+          <div style="margin-top:12px">
+            <h4>Quick contact form</h4>
+            <!-- simple form that opens WhatsApp with prefilled message -->
+            <form id="quickForm" onsubmit="sendForm(event)">
+              <label class="small" for="name">Name</label>
+              <input id="name" name="name" required placeholder="Your name" style="width:100%;padding:8px;margin:6px 0;border-radius:8px;border:1px solid #e6eef7">
+              <label class="small" for="email">Email</label>
+              <input id="email" name="email" placeholder="you@email.com" style="width:100%;padding:8px;margin:6px 0;border-radius:8px;border:1px solid #e6eef7">
+              <label class="small" for="message">Message</label>
+              <textarea id="message" name="message" rows="4" placeholder="Which package? Dates? Number of people?" style="width:100%;padding:8px;margin:6px 0;border-radius:8px;border:1px solid #e6eef7"></textarea>
+              <button type="submit" class="btn" style="width:100%">Send via WhatsApp</button>
+            </form>
+            <p class="small-note">Or email us at <strong>hello@essaouirafantrips.com</strong> (set up later).</p>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:12px">
+          <h4>Reviews (starter)</h4>
+          <p class="small">“Amazing day — surf + sunset!” — Lina, Spain</p>
+          <p class="small">“Perfect for families visiting AFCON” — Mamadou, France</p>
+        </div>
+
+      </aside>
+    </div>
+
+    <footer>
+      <div class="small">© <span id="year"></span> Essaouira Fan Trips — Built with ❤️</div>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById('year').innerText = new Date().getFullYear();
+
+    function book(pkg){
+      // opens WhatsApp with prefilled message
+      const phone = '212600000000'; // <-- change to your number (international format without +)
+      const text = encodeURIComponent(`Hi, I want to book: ${pkg}. Dates: [put dates]. People: [#].`);
+      const url = `https://wa.me/${phone}?text=${text}`;
+      window.open(url,'_blank');
+    }
+
+    function sendForm(e){
+      e.preventDefault();
+      const name = document.getElementById('name').value || '';
+      const email = document.getElementById('email').value || '';
+      const message = document.getElementById('message').value || '';
+      const phone = '212600000000'; // <-- change to your number
+      const text = encodeURIComponent(`Booking request from ${name} (${email}): ${message}`);
+      window.open(`https://wa.me/${phone}?text=${text}`,'_blank');
+    }
+  </script>
+</body>
+</html>
+
