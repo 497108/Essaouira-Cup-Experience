@@ -170,7 +170,7 @@
 
     function book(pkg){
       // opens WhatsApp with prefilled message
-      const phone = '212600000000'; // <-- change to your number (international format without +)
+      const phone = '212696809738'; // <-- change to your number (international format without +)
       const text = encodeURIComponent(`Hi, I want to book: ${pkg}. Dates: [put dates]. People: [#].`);
       const url = `https://wa.me/${phone}?text=${text}`;
       window.open(url,'_blank');
@@ -181,11 +181,12 @@
       const name = document.getElementById('name').value || '';
       const email = document.getElementById('email').value || '';
       const message = document.getElementById('message').value || '';
-      const phone = '212600000000'; // <-- change to your number
+      const phone = '21269680938'; // <-- change to your number
       const text = encodeURIComponent(`Booking request from ${name} (${email}): ${message}`);
       window.open(`https://wa.me/${phone}?text=${text}`,'_blank');
     }
   </script>
 </body>
 </html>
+
 
